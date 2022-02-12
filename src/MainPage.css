@@ -12,8 +12,16 @@ body {
     height: 100vh;
 }
 
+.MainPageFadeIn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .Welcome {
     font-size: 100px;
+    font-weight: bold;
+    width: 80vh;
 }   
 
 .MainText {
@@ -31,10 +39,18 @@ body {
     text-decoration: none;
 }
 
-.ContactButton a:link {
+.ContactButton a:active {
     color: rgb(6, 240, 65);
+}
+
+.ContactButton a:hover {
+    color: rgb(82, 245, 123);;
 }
 
 .ContactButton a:visited {
     color: rgb(12, 155, 48);
+}
+
+.ContactButton a:visited:hover {
+    color: rgb(82, 245, 123);;
 }
