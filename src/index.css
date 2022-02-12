@@ -1,6 +1,6 @@
 body {
-  background-color: rgb(9,24,51);
-  color: rgb(113,28,145);
+  background-color: rgb(13, 2, 8);
+  color: rgb(22, 194, 65);
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -20,10 +20,21 @@ body {
     font-size: 25px;
     font-weight: bold;
     width: 80vh;
+    margin-bottom: 80px;
 }
 
-.ContactButton {
-    padding-top: 40px;
+.ContactButton a{
+    border-style: solid;
+    border-width: 3px;
     font-size: 30px;
-    color: rgb(234,0,217);
+    padding: 5px;
+    text-decoration: none;
+}
+
+.ContactButton a:link {
+    color: rgb(6, 240, 65);
+}
+
+.ContactButton a:visited {
+    color: rgb(12, 155, 48);
 }
