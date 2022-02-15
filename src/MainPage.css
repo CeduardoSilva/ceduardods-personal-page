@@ -31,6 +31,23 @@ body {
     margin-bottom: 80px;
 }
 
+.AboutMe {
+    margin-top: 80px;
+}
+
+.AboutMeLabel {
+    font-size: 50px;
+    font-weight: bold;
+    width: 80vh;
+}   
+
+.AboutMeText {
+    font-size: 20px;
+    font-weight: bold;
+    width: 80vh;
+    margin-top: 10px;
+}
+
 .ContactButton a{
     border-style: solid;
     border-width: 3px;
