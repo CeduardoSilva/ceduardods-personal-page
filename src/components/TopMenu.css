@@ -1,0 +1,36 @@
+.TopMenu {
+    background-color: rgb(13, 2, 8);;
+    display: flex;
+    color: white;
+    height: 5vh;
+    width: 100vh;
+    position: fixed;
+    top: 0;
+}
+
+.TopMenuItems {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.TopMenu a:active {
+    color: rgb(6, 240, 65);
+}
+
+.TopMenu a:hover {
+    color: rgb(82, 245, 123);;
+}
+
+.TopMenu a:visited {
+    color: rgb(12, 155, 48);
+}
+
+.TopMenu a:visited:hover {
+    color: rgb(82, 245, 123);;
+}
+
+.MenuItem {
+    padding-left: 10px;
+    padding-right: 10px;
+}
