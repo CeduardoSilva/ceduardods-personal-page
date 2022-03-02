@@ -1,9 +1,11 @@
 .MenuItem {
-    background-color: rgb(155,161,179);
+    background-color: rgb(185, 188, 196);
     margin-left: 10px;
     margin-right: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
     width: 100px;
 }
 

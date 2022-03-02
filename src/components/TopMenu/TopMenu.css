@@ -1,10 +1,13 @@
 .TopMenu {
-    background-color: rgb(225, 245, 255);
+    border-bottom-style: solid;
+    border-bottom-color: rgb(56, 56, 67);
+    border-bottom-width: 2px;
     display: flex;
     color: white;
     height: 5vh;
-    width: 100vh;
+    width: 100vw;
     position: fixed;
+    padding-bottom: 5px;
     top: 0;
 }
 
@@ -28,9 +31,4 @@
 
 .TopMenu a:visited:hover {
     color: whitesmoke;
-}
-
-.MenuItem {
-    padding-left: 10px;
-    padding-right: 10px;
 }
