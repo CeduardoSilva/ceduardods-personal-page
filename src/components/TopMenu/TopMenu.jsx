@@ -1,5 +1,5 @@
 import React from "react";
-import MenuItem from "./MenuItem";
+import MenuItem from "../MenuItem/MenuItem";
 import "./TopMenu.css";
 
 export default function TopMenu() {
@@ -8,10 +8,16 @@ export default function TopMenu() {
       <nav>
         <ul className="TopMenuItems">
           <MenuItem
-            label="Index"
+            label="INDEX"
           />
           <MenuItem
-            label="AboutMe"
+            label="ABOUT ME"
+          />
+          <MenuItem
+            label="MY WORK"
+          />
+          <MenuItem
+            label="BLOG"
           />
         </ul>
       </nav>
