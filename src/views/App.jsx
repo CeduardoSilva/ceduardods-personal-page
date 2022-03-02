@@ -1,12 +1,14 @@
 import React from "react";
-import "./MainPage.css";
+import "./App.css";
 import FadeIn from "react-fade-in";
+import TopMenu from '../components/TopMenu';
 
 export default function MainPage() {
   return (
     <div className="MainPage">
+      <TopMenu />
       <FadeIn className="MainPageFadeIn" delay={125}>
-        <div className="Welcome">Welcome!</div>
+        <div  id="MainText" className="Welcome">Welcome!</div>
         <div className="MainText">
           <div>I'm Carlos, full stack software engineer!</div>
           <div>
@@ -20,7 +22,7 @@ export default function MainPage() {
             Contact me!
           </a>
         </div>
-        <div className="AboutMe">
+        <div id="AboutMe" className="AboutMe">
           <div className="AboutMeLabel">About me</div>
           <div className="AboutMeText">
               I've been interested in technologies since childhood and my dream
