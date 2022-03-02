@@ -1,5 +1,5 @@
 .TopMenu {
-    background-color: rgb(13, 2, 8);;
+    background-color: rgb(225, 245, 255);
     display: flex;
     color: white;
     height: 5vh;
@@ -15,19 +15,19 @@
 }
 
 .TopMenu a:active {
-    color: rgb(6, 240, 65);
+    color: rgb(56, 56, 67);
 }
 
 .TopMenu a:hover {
-    color: rgb(82, 245, 123);;
+    color: whitesmoke;
 }
 
 .TopMenu a:visited {
-    color: rgb(12, 155, 48);
+    color: rgb(56, 56, 67);
 }
 
 .TopMenu a:visited:hover {
-    color: rgb(82, 245, 123);;
+    color: whitesmoke;
 }
 
 .MenuItem {

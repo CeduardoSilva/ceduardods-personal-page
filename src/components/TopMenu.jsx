@@ -1,21 +1,18 @@
 import React from "react";
+import MenuItem from "./MenuItem";
 import "./TopMenu.css";
 
-export default function MainPage() {
+export default function TopMenu() {
   return (
     <aside className="TopMenu">
       <nav>
         <ul className="TopMenuItems">
-          <li className="MenuItem">
-            <a href="#MainText">
-              Index
-            </a>
-          </li>
-          <li className="MenuItem">
-            <a href="#AboutMe">
-              About Me
-            </a>
-          </li>
+          <MenuItem
+            label="Index"
+          />
+          <MenuItem
+            label="AboutMe"
+          />
         </ul>
       </nav>
     </aside>
