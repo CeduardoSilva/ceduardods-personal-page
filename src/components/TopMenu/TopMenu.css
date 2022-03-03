@@ -7,7 +7,7 @@
     height: 5vh;
     width: 100vw;
     position: fixed;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
     top: 0;
 }
 
@@ -15,20 +15,4 @@
     display: flex;
     flex-direction: row;
     list-style-type: none;
-}
-
-.TopMenu a:active {
-    color: rgb(56, 56, 67);
-}
-
-.TopMenu a:hover {
-    color: whitesmoke;
-}
-
-.TopMenu a:visited {
-    color: rgb(56, 56, 67);
-}
-
-.TopMenu a:visited:hover {
-    color: whitesmoke;
 }

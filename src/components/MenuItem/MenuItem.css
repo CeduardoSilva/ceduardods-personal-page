@@ -1,5 +1,9 @@
 .MenuItem {
     background-color: rgb(185, 188, 196);
+    border: none;
+    color: rgb(56, 56, 67);
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
     margin-left: 10px;
     margin-right: 10px;
     padding-top: 5px;
@@ -9,7 +13,7 @@
     width: 100px;
 }
 
-.MenuItem a {
-    color: rgb(56, 56, 67);
-    text-decoration: none;
+.MenuItem:hover {
+    color:  whitesmoke;
+    cursor: pointer;
 }
