@@ -15,13 +15,6 @@ body {
   overflow-y: scroll;
 } 
 
-.BottomLayer {
-  height: 100vh;
-  width: 100vw;
-  position: absolute;
-  z-index: -1;
-} 
-
 .AboutMe {
   margin-top: 80px;
 }
