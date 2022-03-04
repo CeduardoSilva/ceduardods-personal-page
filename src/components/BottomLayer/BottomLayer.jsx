@@ -3,10 +3,47 @@ import "./BottomLayer.css";
 import { Stage, Layer, Line, Circle } from 'react-konva';
 
 export default function BottomLayer() {
+
+    const verticalLines = [];
+    const horizontalLines = [];
+
+    function renderVerticalLines() {
+        for(let i = 0; i < 150; i++) {
+            verticalLines.push(
+                <Line
+                    x={10+(10*i)}
+                    y={0}
+                    points={[0, 0, 0, window.innerHeight, 0, 0]}
+                    tension={0.5}
+                    stroke="rgba(182, 188, 190, 0.1)"
+                />
+            );
+        }
+    }
+    
+    function renderHorizontalLines() {
+        for(let i = 0; i < 150; i++) {
+            horizontalLines.push(
+                <Line
+                    x={0}
+                    y={10+(10*i)}
+                    points={[0, 0,  window.innerWidth, 0, 0, 0]}
+                    tension={0.5}
+                    stroke="rgba(182, 188, 190, 0.1)"
+                />
+            );
+        }
+    }
+
+    renderVerticalLines();
+    renderHorizontalLines();
+
     return (
         <div className="BottomLayer">
             <Stage width={window.innerWidth} height={window.innerHeight}>
                 <Layer>
+                    {verticalLines}
+                    {horizontalLines}
                     <Line
                         x={0}
                         y={0}
