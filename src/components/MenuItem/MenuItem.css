@@ -1,8 +1,8 @@
 .MenuItem {
-    background-color: rgb(185, 188, 196);
+    background-color: rgb(198, 200, 206);
     border: none;
     color: rgb(56, 56, 67);
-    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 15px;
     margin-left: 10px;
     margin-right: 10px;
@@ -11,7 +11,7 @@
     padding-left: 10px;
     padding-right: 10px;
     width: 100px;
-    box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.5);
+    box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.25);
 }
 
 .MenuItem:hover {
