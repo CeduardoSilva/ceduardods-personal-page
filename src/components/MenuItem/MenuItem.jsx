@@ -5,7 +5,10 @@ import "./MenuItem.css";
 const MenuItem = (props) => {
     const { label, onPress } = props;
     return (
-        <button onClick={onPress} className="MenuItem">{label}</button>
+        <div className="MenuItem">
+            <div className="MenuItemSquare"></div>
+            <button onClick={onPress}>{label}</button>
+        </div>
     );
 }
 
